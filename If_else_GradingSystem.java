@@ -12,18 +12,18 @@ public class Pro6_If_else_GradingSystem {
             75 â€“ 89		B
             50 â€“ 74		C
             Below 50	Fail*/
-		int mark =30;
+		int mark =50;
 		if(mark >0)
 		{
-			if((mark>=90)&&(mark<=100)&&(mark>=50))
+			if((mark>=90)&&(mark<=100))
 			{
 				System.out.println("Grade: A" );
 			}
-			else if((mark>=75)&&(mark<=89)&& (mark>=50))
+			else if((mark>=75)&&(mark<=89))
 			{
 				System.out.println("Grade: B" );
 			}
-			else if((mark>=50)&&(mark<=74)&& (mark>=50))
+			else if((mark>=50)&&(mark<=74))
 			{
 				System.out.println("Grade: C" );
 			}
